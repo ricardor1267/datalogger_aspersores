@@ -1,0 +1,8 @@
+{
+    "MINING_EQUIPO_ID": 0,
+    "MINING_FAENA_ID" : 0,
+    "TABLE_NAME": "aspersores_data",
+    "URL": "http://54.162.236.190:4000/api/sensor/svalvula",
+    "RESTART_DB": "True",
+    "MAQUINA" : 1
+}
