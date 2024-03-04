@@ -31,10 +31,12 @@ class serialRead():
                 self.data_dic = {}
                 self.boton_web= 0
 
+
              
                 with open("/srv/datalogger_aspersores/config.json","r") as archivo:
                         data_conf=json.load(archivo)
                 self.MAQUINA= data_conf["MAQUINA"]
+
 
 
 
@@ -138,11 +140,10 @@ class serialRead():
                                         if self.boton_web==0 :
                                                 print('')
                                                 #COdigo logico con  sensores
-                                                #
                                                 data_aspersores = [
                                                         [0, 0, 0, 0, 0, 0, 0, 0, 0 , 0, 0, 0]
                                                 ]
-                                                #
+                                                
                                                 mensaje="*"
                                                 for i in data_aspersores:
                                                         mensaje=mensaje+str(i)
